@@ -1,0 +1,45 @@
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+
+# Bin  
+*.bin
+*/bin/*
+*/log/*
+
+# cmake
+*/CMakeCache.txt
+*/CMakeFiles
+*/CMakeFiles/*
+*/Makefile
+*/cmake_install.cmake
+
+
+# Precompiled Assets
+3DWMUnreal/SourceArt/**/*.png
+3DWMUnreal/SourceArt/**/*.tga
+
+
+# Vim Artifacts
+*.swp
+*.swo
+.ctrlp_cache/
+
+*.\#*

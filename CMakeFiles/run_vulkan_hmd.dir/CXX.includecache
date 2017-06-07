@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruhtra/projets/E4_vulkan_hmd/src/main.cpp
+vulkan/vulkan.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
+stdexcept
+-
+functional
+-
+
